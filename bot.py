@@ -58,7 +58,7 @@ async def on_message(message):
 
     success = send_to_google_form(data)
     if success:
-        await message.channel.send("✅ Finance request submitted successfully.")
+        await message.channel.send("Request submitted successfully.")
     else:
         await message.channel.send("❌ Failed to submit the request. Try again later.")
 
