@@ -1,3 +1,4 @@
 botenv/
 .vscode/
 .env
+.DS_Store

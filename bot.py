@@ -10,10 +10,10 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = int(os.getenv("CHANNEL_ID",0))
 FORMURL=os.getenv("FORM_URL")
 FIELDS = {
-    "Reason": "entry.123456789",
-    "Amount": "entry.234567890",
-    "Deadline": "entry.345678901",
-    "Note": "entry.456789012",
+    "Reason": "entry.987654321",
+    "Amount": "entry.876543210",
+    "Deadline": "entry.765432109",
+    "Note": "entry.654321098",
 }
 
 intents = discord.Intents.default()
